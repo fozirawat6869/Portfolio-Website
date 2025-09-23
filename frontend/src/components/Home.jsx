@@ -4,7 +4,7 @@ import img from '../images/mayur.jpg'
 function Home() {
   return (
     <>
-     <main className='flex justify-center gap-20 mt-30'>
+     <div id="" className='flex justify-center gap-20 mt-30'>
         <div className='w-120 h-120 rounded-full overflow-hidden'>
             <img src={img} alt="" className='h-full w-full object-cover ' />
         </div>
@@ -13,7 +13,7 @@ function Home() {
           <h1 className='text-[80px] font-bold font-poppins  text-white'>Mayur Rawat</h1>
           <h1 className='text-[35px] font-bold text-center text-gray-400'>Full-Stack Web Developer</h1>
         </div>
-     </main>
+     </div>
     </>
   )
 }
