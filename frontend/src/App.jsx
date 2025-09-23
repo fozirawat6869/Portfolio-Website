@@ -1,13 +1,18 @@
 
 import './App.css'
+import Nav from './components/Nav'
+
 
 
 function App() {
 
 
   return (
-    <>
-     <div>Hlo Mayur Rawat</div>
+    < >
+   <div className='bg-gradient-to-b from-black via-blue-600 to-black min-h-screen'>
+      <Nav/>
+   </div>
+  
     </>
   )
 }
