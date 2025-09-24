@@ -4,7 +4,7 @@ import img from '../images/mayur.jpg'
 function Home() {
   return (
     <>
-     <div id="" className='flex justify-center gap-20 mt-30'>
+     <div id="home" className='flex justify-center gap-20 pt-30'>
         <div className='w-120 h-120 rounded-full overflow-hidden'>
             <img src={img} alt="" className='h-full w-full object-cover ' />
         </div>
