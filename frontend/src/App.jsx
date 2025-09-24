@@ -3,6 +3,7 @@ import './App.css'
 import About from './components/About'
 import Home from './components/Home'
 import Nav from './components/Nav'
+import Project from './components/Project'
 import Skills from './components/Skills'
 
 
@@ -12,12 +13,13 @@ function App() {
 
   return (
     < >
-   <div className='bg-gradient-to-b from-black via-blue-600 to-black min-h-screen'>
+  
       <Nav/>
       <Home/>
       <About/>
       <Skills/>
-   </div>
+      <Project/>
+  
   
     </>
   )
