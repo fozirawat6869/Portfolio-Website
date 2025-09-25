@@ -5,7 +5,7 @@ import libraryImg from '../images/libraryImg.png'
 function Project() {
   return (
     <>
-     <div id="project" className='flex flex-col items-center pb-50 pt-5 '>
+     <div id="project" className='flex flex-col items-center pb-30 pt-5   '>
        <h1 className='text-white text-6xl font-bold pb-20'>My Projects</h1>
         <div className='flex flex-wrap gap-x-15 gap-y-25 justify-center px-30'>
            {/*    project one   */}
@@ -19,7 +19,7 @@ function Project() {
                 <a href="https://github.com/fozirawat6869/Portfolio-Website.git">
                 <button className='hover:bg-blue-500 bg-gray-600 hover:scale-105 duration-300 cursor-pointer  font-cold rounded-3xl text-white text-base px-4 py-2'>Source Code</button>
                 </a>
-                <a href="https://portfolio-website-mayur.vercel.app">
+                <a href="https://portfolio-website-mayur.vercel.app/">
                 <button
                  className='hover:bg-blue-500 hover:scale-105 duration-300 cursor-pointer bg-gray-600 font-cold rounded-3xl text-white text-base px-4 py-2'>Live Demo</button>
                  </a>

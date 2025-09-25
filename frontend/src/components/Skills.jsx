@@ -10,6 +10,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
+import { IoLogoVercel } from "react-icons/io5";
 
 function Skills() {
   return (
@@ -44,6 +45,8 @@ function Skills() {
              <div className='flex flex-col gap-3 bg-white border-1 border-white p-10 rounded-[30px] w-60  hover:scale-110 transition-all duration-300 cursor-pointer'> 
               <div className='text-center font-bold text-[19px] pb-5 '>Hosting Platform</div> 
                <div className='flex  gap-5'><span className='text-3xl'><span/><FaGithub/></span> <span className='text-base'>Git Hub</span></div>
+               <div className='flex  gap-5'><span className='text-3xl'><span/><IoLogoVercel/></span> <span className='text-base'>Vercel</span></div>
+               
             </div>
          </div>
      </div>
