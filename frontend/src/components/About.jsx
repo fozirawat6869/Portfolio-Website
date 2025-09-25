@@ -6,11 +6,11 @@ import certificate from '../icons/certificate.png'
 function About() {
   return (
     <>
-     <div id="about" className='  text-white mt-18 pt-5'>
+     <div id="about" className='  text-white mt-12 pt-5'>
         <p className='text-gray-300 text-xl text-center'>Get to know more</p>
         <h1 className='pt-2 text-white text-6xl font-bold text-center'>About Me</h1>
 
-        <div className='mt-18 flex gap-10 justify-center items-center '>
+        <div className='mt-18 flex gap-10 justify-center items-center flex-wrap '>
 
             <div className='w-[400px]  h-[230px] bg-white text-black flex flex-col  items-center rounded-xl p-8 border-black border-1'>
               <img src={education} alt="" className='block w-[40px] ' />

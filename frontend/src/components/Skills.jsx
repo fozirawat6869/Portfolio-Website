@@ -18,8 +18,8 @@ function Skills() {
      <div id="skills" className='pt-20 flex flex-col items-center pb-50  flex-wrap'>
        <p className='text-gray-300 text-xl text-center'>Explore my</p>
         <h1 className='pt-2 text-white text-6xl font-bold text-center pb-25'>Skills</h1>
-         <div className='flex gap-10 '>
-           <div className='z-0 flex flex-col gap-3 bg-white border-1 border-white p-10 rounded-[30px] w-60 hover:scale-110 transition-all duration-300'> 
+         <div className='flex gap-10 flex-wrap justify-center'>
+           <div className='z-0 flex flex-col  gap-3 bg-white border-1 border-white p-10 rounded-[30px] w-60 hover:scale-110 transition-all duration-300'> 
               <div className='text-center font-bold text-[19px] pb-5 '>Frontend</div> 
                <div className='flex  gap-5'><span className='text-3xl'><IoLogoHtml5/></span> <span className='text-base'>HTML</span></div>
                <div className='flex gap-5'><span className='text-3xl'><IoLogoCss3/></span><span  className='text-base'>CSS</span></div>

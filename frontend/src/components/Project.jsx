@@ -15,7 +15,7 @@ function Project() {
                  <h1 className='text-center text-xl pt-5 pb-2 font-bold text-blue-500'>My-Portfolio-Website</h1>
                   <p className=' tracking-wider h-63 overflow-y-auto scrollbar-none p-1'><span className='text-lg font-bold'>Description :- </span> A modern portfolio website created with React and Tailwind CSS, highlighting my skills, projects, and professional experience. Features a responsive design and interactive UI elements for an engaging user experience. Showcases projects with detailed descriptions, links, and visual previews. Includes smooth navigation, animations, and visually appealing layouts to make the content easy to explore. Optimized for performance, accessibility, and cross-device compatibility, providing a professional online presence.</p>
               </div>
-              <div className='flex gap-5 justify-center pt-3 '>
+              <div className='flex gap-5 justify-center pt-3 flex-wrap '>
                 <a href="https://github.com/fozirawat6869/Portfolio-Website.git">
                 <button className='hover:bg-blue-500 bg-gray-600 hover:scale-105 duration-300 cursor-pointer  font-cold rounded-3xl text-white text-base px-4 py-2'>Source Code</button>
                 </a>
