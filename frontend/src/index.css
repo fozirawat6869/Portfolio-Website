@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-gradient-to-b from-black via-blue-600 to-black;
+  @apply bg-gradient-to-b from-black  via-blue-500 to-indigo-400;
   min-height: 100vh;
 }
+/* bg-gradient-to-b from-indigo-400 via-indigo-300 to-blue-400 */
+/* bg-gradient-to-b from-black via-blue-600 to-black */

@@ -6,7 +6,7 @@ import certificate from '../icons/certificate.png'
 function About() {
   return (
     <>
-     <div id="about" className='  text-white mt-25 pt-5'>
+     <div id="about" className='  text-white mt-18 pt-5'>
         <p className='text-gray-300 text-xl text-center'>Get to know more</p>
         <h1 className='pt-2 text-white text-6xl font-bold text-center'>About Me</h1>
 

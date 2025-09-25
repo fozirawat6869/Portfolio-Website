@@ -5,8 +5,8 @@ function Home() {
   return (
     <>
      <div id="home" className='flex justify-center gap-20 pt-30'>
-        <div className='w-120 h-120 rounded-full overflow-hidden'>
-            <img src={img} alt="" className='h-full w-full object-cover ' />
+        <div className='w-120 h-120 rounded-full overflow-hidden  border-2 border-white hover:border-blue-500 hover:scale-105 transition-all duration-300'>
+            <img src={img} alt="" className='h-full w-full object-cover  ' />
         </div>
         <div className=' flex-col gap-2'>
           <p className='text-3xl font-bold text-center text-gray-400'>Hello, I'm</p>
