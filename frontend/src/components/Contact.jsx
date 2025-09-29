@@ -5,8 +5,8 @@ function Contact() {
   return (
     <>
      <div id="contact" className='flex flex-col items-center  pt-10 mb-25 '>
-        <p className='text-gray-300 text-xl text-center'>Get to know more</p>
-        <h1 className='pt-2 text-white text-6xl font-bold text-center'>About Me</h1>
+        <p className='text-gray-300 text-xl text-center'>Get in touch </p>
+        <h1 className='pt-2 text-white text-6xl font-bold text-center'>Contact Me</h1>
           {/* Contact Info */}
         <div className='flex flex-col md:flex-row gap-10 mt-15 text-white text-xl items-center'>
           <a href="https://mail.google.com/mail/?view=cm&to=fozirawat6869@gmail.com" className='flex items-center gap-3 hover:text-blue-500 font-bold rounded-xl transition-colors px-3 py-2 hover:bg-white '>

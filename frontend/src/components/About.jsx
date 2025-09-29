@@ -6,7 +6,7 @@ import certificate from '../icons/certificate.png'
 function About() {
   return (
     <>
-     <div id="about" className='  text-white mt-12 pt-5'>
+     <div id="about" className='  text-white mt-5 pt-5'>
         <p className='text-gray-300 text-xl text-center'>Get to know more</p>
         <h1 className='pt-2 text-white text-6xl font-bold text-center'>About Me</h1>
 
@@ -37,7 +37,7 @@ function About() {
 
         </div>
         
-        <div className='px-55 mt-15 text-[18px] tracking-widest  leading-8 pb-10 '>
+        <div className=' px-8 lg:px-55 sm:px-10 mt-15 text-[18px] tracking-widest  leading-8 pb-10 '>
           <p>Hi! I’m <span className='text-2xl font-bold'>Mayur Rawat</span>, a passionate Full-Stack Web Developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js). I have a strong foundation in both front-end and back-end development, enabling me to create modern, responsive, and highly interactive web applications from scratch. I enjoy turning ideas into functional and visually appealing web solutions, whether it’s building portfolio websites, e-commerce platforms, dynamic dashboards, or custom web applications tailored to client needs.</p>
           <p className='mt-4'>I am skilled in designing clean, maintainable, and scalable code and am constantly learning new technologies to stay up-to-date with the latest trends in web development. I am also familiar with version control systems like Git, deployment strategies, and working in collaborative environments. My approach focuses on solving real-world problems efficiently while providing seamless user experiences.</p>
           <p className='mt-4'>I am motivated by challenges, passionate about coding, and love collaborating with teams or clients to bring innovative ideas to life. Whether it’s building a project from scratch or improving an existing system, I am dedicated to delivering high-quality web solutions that meet requirements and exceed expectations.</p>
