@@ -18,9 +18,9 @@ function App() {
       <Nav/>
       <Home/>
       <About/>
-      <Skills/>
+     <Skills/>
       <Project/>
-      <Contact/>
+      <Contact/> 
   
     </>
   )
