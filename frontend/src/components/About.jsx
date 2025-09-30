@@ -8,11 +8,11 @@ function About() {
     <>
      <div id="about" className='  text-white mt-5 pt-5'>
         <p className='text-gray-300 text-xl text-center'>Get to know more</p>
-        <h1 className='pt-2 text-white text-6xl font-bold text-center'>About Me</h1>
+        <h1 className='pt-2 text-white text-3xl lg:text-6xl font-bold text-center'>About Me</h1>
 
-        <div className='mt-18 flex gap-10 justify-center items-center flex-wrap '>
+        <div className='lg:mt-18 mt-8 flex gap-10 justify-center items-center flex-wrap px-10 '>
 
-            <div className='w-[400px]  h-[230px] bg-white text-black flex flex-col  items-center rounded-xl p-8 border-black border-1'>
+            <div className=' lg-h-[150px]  lg-w-[300px]  lg:w-[400px]  lg:h-[230px] bg-white text-black flex flex-col  items-center rounded-xl p-8 border-black border-1'>
               <img src={education} alt="" className='block w-[40px] ' />
               <h1 className='text-2xl font-bold mt-2 '>Education</h1>
               <h1 className='text-lg mt-2'>BCA (Bachelors of Computer Science)</h1>

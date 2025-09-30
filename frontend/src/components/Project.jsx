@@ -5,11 +5,11 @@ import libraryImg from '../images/libraryImg.png'
 function Project() {
   return (
     <>
-     <div id="project" className='flex flex-col items-center pb-30 pt-5   '>
-       <h1 className='text-white text-6xl font-bold pb-20'>My Projects</h1>
-        <div className='flex flex-wrap gap-x-15 gap-y-25 justify-center px-30'>
+     <div id="project" className='flex flex-col items-center pb-30 pt-5 px-10  '>
+       <h1 className='text-white text-3xl lg:text-6xl font-bold pb-20'>My Projects</h1>
+        <div className='flex flex-wrap gap-x-15 gap-y-25 justify-center  lg:px-30'>
            {/*    project one   */}
-            <div className='flex flex-col justify-between w-100 h-150 p-5 bg-white  border-white border-1 rounded-xl'>
+            <div className='flex flex-col justify-between  w-100 h-150 p-5 bg-white  border-white border-1 rounded-xl'>
               <div>
                  <img src={portfolioImg} alt="" className='w-full h-45 rounded-xl border-white border-1 hover:scale-105 transition-all duration-300'  />
                  <h1 className='text-center text-xl pt-5 pb-2 font-bold text-blue-500'>My-Portfolio-Website</h1>
