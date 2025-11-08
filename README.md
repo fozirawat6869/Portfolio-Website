@@ -16,4 +16,4 @@ The website is fully responsive for both desktop and mobile devices.
 - JavaScript  
 
 ## Live Demo
-[Click here to view my portfolio](https://vercel.com/mayur-rawats-projects)
+[Click here to view my portfolio](https://portfolio-website-mayur.vercel.app/)
