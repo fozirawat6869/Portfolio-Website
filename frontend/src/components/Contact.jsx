@@ -24,13 +24,20 @@ function Contact() {
         </div>
 
         {/* Optional Contact Form */}
-        <form action="https://formspree.io/f/yourformid" method="POST" className='flex flex-col gap-4 mt-20 w-60 lg:w-full max-w-md'>
-        <h1 className='text-center text-3xl font-bold text-white'>Form</h1>
-          <input type="text" name="name" placeholder="Your Name" className='p-3 rounded-lg bg-gray-800 text-white' required />
-          <input type="email" name="email" placeholder="Your Email" className='p-3 rounded-lg bg-gray-800 text-white' required />
-          <textarea name="message" placeholder="Your Message" className='p-3 rounded-lg bg-gray-800 text-white' rows="5" required></textarea>
-          <button type="submit" className='bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg transition-colors'>Send Message</button>
-        </form>
+      
+       <form 
+        action="https://formspree.io/f/xqawlrao" 
+        method="POST" 
+        className='flex flex-col gap-4 mt-20 w-60 lg:w-full max-w-md'
+        >
+  <h1 className='text-center text-3xl font-bold text-white'>Form</h1>
+  <input type="text" name="name" placeholder="Your Name" className='p-3 rounded-lg bg-gray-800 text-white' required />
+  <input type="email" name="email" placeholder="Your Email" className='p-3 rounded-lg bg-gray-800 text-white' required />
+  <textarea name="message" placeholder="Your Message" className='p-3 rounded-lg bg-gray-800 text-white' rows="5" required></textarea>
+  <button type="submit" className='bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg transition-colors cursor-pointer'>Send Message</button>
+</form>
+
+        
      </div>
     </>
   )
