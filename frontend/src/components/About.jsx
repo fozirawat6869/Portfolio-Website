@@ -13,6 +13,8 @@ function About() {
         <div className='lg:mt-18 mt-8 flex gap-10 justify-center items-center flex-wrap px-10 '>
 
             <div className=' lg-h-[150px]  lg-w-[300px]  lg:w-[400px]  lg:h-[230px] bg-white text-black flex flex-col  items-center rounded-xl p-8 border-black border-1'>
+          
+
               <img src={education} alt="" className='block w-[40px] ' />
               <h1 className='text-2xl font-bold mt-2 '>Education</h1>
               <h1 className='text-lg mt-2'>BCA (Bachelors of Computer Science)</h1>
@@ -20,6 +22,8 @@ function About() {
             </div>
 
             <div className='w-[400px] h-[230px] bg-white text-black flex flex-col  items-center rounded-xl p-8'>
+           
+
               <img src={experience} alt="" className='block w-[40px]' />
               <h1 className='text-2xl font-bold mt-2'>Experience</h1>
               <h1 className='text-lg mt-2'>1+ years</h1>
