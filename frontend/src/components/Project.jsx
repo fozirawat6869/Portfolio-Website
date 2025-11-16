@@ -7,7 +7,7 @@ function Project() {
     <>
      <div id="project" className='flex flex-col items-center pb-30 pt-5 px-2 '>
        <h1 className='text-white text-3xl lg:text-6xl font-bold pb-20'>My Projects</h1>
-        <div className='flex flex-wrap gap-x-15 gap-y-25 justify-center  lg:px-30'>
+        <div className='flex flex-wrap  gap-x-15 gap-y-25 justify-center  lg:px-30'>
            {/*    project one   */}
             <div className='flex flex-col justify-between  w-80 h-130 lg:w-100 lg:h-150 p-5 bg-white  border-white border-1 rounded-xl'>
               <div>
@@ -37,9 +37,9 @@ function Project() {
                 <a href="https://github.com/fozirawat6869/Library-Management-System.git">
                 <button className='hover:bg-indigo-400 bg-gray-600 hover:scale-105 duration-300 cursor-pointer  font-cold rounded-3xl text-white text-base px-4 py-2'>Source Code</button>
                 </a>
-                <a href="https://portfolio-website-mayur.vercel.app/">
+                <a href="#project">
                 <button
-                 className='hover:bg-indigo-400 hover:scale-105 duration-300 cursor-pointer bg-gray-600 font-cold rounded-3xl text-white text-base px-4 py-2'>Live Demo</button>
+                 className='hover:bg-indigo-400 hover:scale-105 duration-300 cursor-pointer bg-gray-600 font-cold rounded-3xl text-white text-base px-4 py-2'>Not Live Yet</button>
                  </a>
               </div>
              </div>
