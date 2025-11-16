@@ -16,7 +16,7 @@ function About() {
 <div className='mt-8 lg:mt-18 flex flex-wrap justify-center gap-6 px-10 lg:px-10'>
 
   {/* Education Card */}
-  <div className='flex flex-col items-center bg-white text-black rounded-xl p-6 sm:p-8 w-full  md:w-[380px]   lg:w-[400px] h-[250px]'>
+  <div className='flex flex-col items-center justify-center bg-white text-black rounded-xl p-6 sm:p-8 w-full  md:w-[380px]   lg:w-[400px] h-[250px]'>
     <img src={education} alt="" className='w-10 sm:w-12 mb-2' />
     <h1 className='text-xl sm:text-2xl font-bold mt-2 text-center'>Education</h1>
     <h1 className='text-sm sm:text-lg mt-2 text-center'>BCA (Bachelors of Computer Science)</h1>
@@ -24,7 +24,7 @@ function About() {
   </div>
 
   {/* Experience Card */}
-  <div className='flex flex-col items-center bg-white text-black rounded-xl p-6 sm:p-8 w-full   md:w-[380px]  lg:w-[400px] h-[250px]'>
+  <div className='flex flex-col items-center justify-center bg-white text-black rounded-xl p-6 sm:p-8 w-full   md:w-[380px]  lg:w-[400px] h-[250px]'>
     <img src={experience} alt="" className='w-10 sm:w-12 mb-2' />
     <h1 className='text-xl sm:text-2xl font-bold mt-2 text-center'>Experience</h1>
     <h1 className='text-sm sm:text-lg mt-2 text-center'>1+ years</h1>
@@ -32,7 +32,7 @@ function About() {
   </div>
 
   {/* Certificate Card */}
-  <div className='flex flex-col items-center bg-white text-black rounded-xl p-6 sm:p-8 w-full  md:w-[380px]  lg:w-[400px] h-[250px]'>
+  <div className='flex flex-col justify-center items-center bg-white text-black rounded-xl p-6 sm:p-8 w-full  md:w-[380px]  lg:w-[400px] h-[250px]'>
     <img src={certificate} alt="" className='w-10 sm:w-12 mb-2' />
     <h1 className='text-xl sm:text-2xl font-bold text-center'>Certificate</h1>
     <h1 className='text-sm sm:text-lg font-medium mt-2 text-center'>Full-Stack Web Development</h1>
