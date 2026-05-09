@@ -12,6 +12,12 @@ import { SiMysql } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
 import { IoLogoVercel } from "react-icons/io5";
 
+import { RiNextjsFill } from "react-icons/ri";
+import { SiRender } from "react-icons/si";
+import { GiSadCrab } from "react-icons/gi";
+import { SiTypescript } from "react-icons/si";
+import { TbApi } from "react-icons/tb";
+
 function Skills() {
   return (
    <>
@@ -19,33 +25,37 @@ function Skills() {
        <p className='text-gray-300 text-xl text-center'>Explore my</p>
         <h1 className='pt-2 text-white text-3xl lg:text-6xl font-bold text-center lg:pb-25 pb-15'>Skills</h1>
          <div className='flex gap-10 flex-wrap justify-center'>
-           <div className='z-0 flex flex-col  gap-3 bg-white border-1  h-90 p-12 border-white  rounded-[30px] w-60 hover:scale-110 transition-all duration-300'> 
+           <div className='z-0 flex flex-col  gap-3 bg-white border-1  h-100 p-12 border-white  rounded-[30px] w-60 hover:scale-110 transition-all duration-300'> 
               <div className='text-center font-bold text-[19px] pb-5 '>Frontend</div> 
                <div className='flex  gap-5'><span className='text-3xl'><IoLogoHtml5/></span> <span className='text-base'>HTML</span></div>
                <div className='flex gap-5'><span className='text-3xl'><IoLogoCss3/></span><span  className='text-base'>CSS</span></div>
                <div className='flex gap-5'><span className='text-3xl'><IoLogoJavascript/></span><span  className='text-base'>JavaScript</span></div>
+                <div className='flex gap-5'><span className='text-3xl'><SiTypescript/></span><span  className='text-base'>TypeScript</span></div> 
                <div className='flex gap-5'><span className='text-3xl'><FaReact/></span><span  className='text-base'>React.js</span></div>
                <div className='flex gap-5'><span className='text-3xl'><SiRedux/></span><span  className='text-base'>Redux</span></div> 
             </div>
-            <div className='flex flex-col gap-3 bg-white  border-1 w-60 border-white h-90 p-12  rounded-[30px] hover:scale-110 transition-all duration-300 '> 
+            <div className='flex flex-col gap-3 bg-white  border-1 w-60 border-white h-100 p-12  rounded-[30px] hover:scale-110 transition-all duration-300 '> 
               <div className='text-center font-bold text-[19px] pb-5'>Backend</div> 
                <div className='flex  gap-5'><span className='text-3xl'><FaNodeJs/></span> <span className='text-base'>Node.js</span></div>
-              
+               <div className='flex  gap-5'><span className='text-3xl'><TbApi/></span> <span className='text-base'>RESTful APIs</span></div>
             </div>
-             <div className='flex flex-col gap-3 bg-white border-1 w-60 border-white h-90 p-12 rounded-[30px]  hover:scale-110 transition-all duration-300 cursor-pointer'> 
+             <div className='flex flex-col gap-3 bg-white border-1 w-60 border-white h-100 p-12 rounded-[30px]  hover:scale-110 transition-all duration-300 cursor-pointer'> 
               <div className='text-center font-bold text-[19px] pb-5'>FrameWorks</div> 
                <div className='flex  gap-5'><span className='text-3xl'><SiExpress/></span> <span className='text-base'>Express.js</span></div>
                <div className='flex gap-5'><span className='text-3xl'><RiTailwindCssFill/></span><span  className='text-base'>TailwindCSS</span></div>
+                <div className='flex gap-5'><span className='text-3xl'><RiNextjsFill/></span><span  className='text-base'>Next.js</span></div>
             </div>
-             <div className='flex flex-col gap-3 bg-white  border-1 w-60 border-white h-90 p-12 rounded-[30px]  hover:scale-110 transition-all duration-300 cursor-pointer'> 
+             <div className='flex flex-col gap-3 bg-white  border-1 w-60 border-white h-100 p-12 rounded-[30px]  hover:scale-110 transition-all duration-300 cursor-pointer'> 
               <div className='text-center font-bold text-[19px] pb-5 w-40 '>Database</div> 
                <div className='flex  gap-5'><span className='text-3xl'><SiMysql/></span> <span className='text-base'>MySQL</span></div>
                <div className='flex gap-5'><span className='text-3xl'><SiMongodb/></span><span  className='text-base'>MongoDB</span></div>
             </div>
-             <div className='flex flex-col gap-3 bg-white border-1 border-white h-90 p-12 rounded-[30px] w-60  hover:scale-110 transition-all duration-300 cursor-pointer'> 
+             <div className='flex flex-col gap-3 bg-white border-1 border-white h-100 p-12 rounded-[30px] w-60  hover:scale-110 transition-all duration-300 cursor-pointer'> 
               <div className='text-center font-bold text-[19px] pb-5 '>Hosting Platform</div> 
                <div className='flex  gap-5'><span className='text-3xl'><span/><FaGithub/></span> <span className='text-base'>Git Hub</span></div>
                <div className='flex  gap-5'><span className='text-3xl'><span/><IoLogoVercel/></span> <span className='text-base'>Vercel</span></div>
+               <div className='flex  gap-5'><span className='text-3xl'><span/><SiRender/></span> <span className='text-base'>Render</span></div>
+               <div className='flex  gap-5'><span className='text-3xl'><span/><GiSadCrab/></span> <span className='text-base'>Aiven</span></div>
                
             </div>
          </div>

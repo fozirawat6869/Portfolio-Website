@@ -13,10 +13,10 @@ function About() {
  
 
 
-<div className='mt-8 lg:mt-18 flex flex-wrap justify-center gap-6 px-10 lg:px-10'>
+<div className='mt-8 lg:mt-18 flex flex-wrap justify-center gap-6 px-10 lg:px-10 '>
 
   {/* Education Card */}
-  <div className='flex flex-col items-center justify-center bg-white text-black rounded-xl p-6 sm:p-8 w-full  md:w-[380px]   lg:w-[400px] h-[250px]'>
+  <div className='flex flex-col items-center justify-center bg-white text-black rounded-xl p-6 sm:p-8 w-full  md:w-[380px]   lg:w-[400px] h-[250px] hover:scale-105 transition-all duration-300'>
     <img src={education} alt="" className='w-10 sm:w-12 mb-2' />
     <h1 className='text-xl sm:text-2xl font-bold mt-2 text-center'>Education</h1>
     <h1 className='text-sm sm:text-lg mt-2 text-center'>BCA (Bachelors of Computer Science)</h1>
@@ -24,7 +24,7 @@ function About() {
   </div>
 
   {/* Experience Card */}
-  <div className='flex flex-col items-center justify-center bg-white text-black rounded-xl p-6 sm:p-8 w-full   md:w-[380px]  lg:w-[400px] h-[250px]'>
+  <div className='flex flex-col items-center justify-center bg-white text-black rounded-xl p-6 sm:p-8 w-full   md:w-[380px]  lg:w-[400px] h-[250px] hover:scale-105 transition-all duration-300'>
     <img src={experience} alt="" className='w-10 sm:w-12 mb-2' />
     <h1 className='text-xl sm:text-2xl font-bold mt-2 text-center'>Experience</h1>
     <h1 className='text-sm sm:text-lg mt-2 text-center'>1+ years</h1>
@@ -32,7 +32,7 @@ function About() {
   </div>
 
   {/* Certificate Card */}
-  <div className='flex flex-col justify-center items-center bg-white text-black rounded-xl p-6 sm:p-8 w-full  md:w-[380px]  lg:w-[400px] h-[250px]'>
+  <div className='flex flex-col justify-center items-center bg-white text-black rounded-xl p-6 sm:p-8 w-full  md:w-[380px]  lg:w-[400px] h-[250px] hover:scale-105 transition-all duration-300'>
     <img src={certificate} alt="" className='w-10 sm:w-12 mb-2' />
     <h1 className='text-xl sm:text-2xl font-bold text-center'>Certificate</h1>
     <h1 className='text-sm sm:text-lg font-medium mt-2 text-center'>Full-Stack Web Development</h1>
@@ -52,7 +52,65 @@ function About() {
           <p className='mt-4'>I am motivated by challenges, passionate about coding, and love collaborating with teams or clients to bring innovative ideas to life. Whether it’s building a project from scratch or improving an existing system, I am dedicated to delivering high-quality web solutions that meet requirements and exceed expectations.</p>
         </div>
      </div>
-    
+
+     <h1 className='text-3xl font-bold mt-6 text-center text-white'>Hosting & Deployment Experience</h1>
+
+<div className=' px-8 lg:px-55 sm:px-10 mt-15 text-[18px] tracking-widest  leading-8 pb-10 text-white '>
+   <p className=' '>
+  I have also deployed and managed full-stack projects online using cloud platforms and free hosting services. For example, I hosted an e-commerce web application with the frontend deployed on <span className='font-bold'>Vercel</span>, the backend hosted on <span className='font-bold'>Render</span>, and the database managed using <span className='font-bold'>Aiven</span>. This experience helped me understand deployment, environment variables, API integration, database hosting, and real-world production workflows.
+</p>
+
+ <p className='mt-4'><span className='font-bold  text-xl'>Live Demo : </span>  <a href="https://ecommerce-website-two-rose.vercel.app" target="_blank" rel="noopener noreferrer" className='font-bold  text-yellow-300 ml-1'>
+    Click me to see the live demo of the e-commerce web application.
+  </a></p>
+
+  <div className='mt-5'>
+    <h2 className='text-xl font-bold'>👤 User Features</h2>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>User Signup & Login</li>
+      <li>Authentication System</li>
+      <li>View Products</li>
+      <li>Filter Products (Price, Category, Color, etc.)</li>
+      <li>Add to Cart</li>
+      <li>View Profile</li>
+      <li>Responsive Design (Mobile, Tablet, Desktop)</li>
+      <li>Pagination for Better Performance</li>
+      <li>Lazy Loading & Caching</li>
+    </ul>
+  </div>
+
+  <div className='mt-5'>
+    <h2 className='text-xl font-bold'>🛠️ Admin Features</h2>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Admin Login Panel</li>
+      <li>View All Users</li>
+      <li>View All Products</li>
+      <li>Add New Products</li>
+      <li>Delete Products</li>
+      <li>Manage Platform Data</li>
+    </ul>
+  </div>
+
+  <div className='mt-5'>
+    <h2 className='text-xl font-bold'>⚡ Performance Features</h2>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Lazy Loading</li>
+      <li>Caching</li>
+      <li>Optimized API Calls</li>
+      <li>Clean Project Structure</li>
+    </ul>
+  </div>
+</div>
+
+     {/* <h1 className=' text-3xl font-bold mt-8 text-center text-gray-300'>Hosting & Deployment Experience</h1>
+
+     <p className='  px-8 lg:px-55 sm:px-10 mt-12 text-[18px] tracking-widest  leading-8 pb-10 text-white'>
+  I have also deployed and managed full-stack projects online using cloud platforms and free hosting services. For example, I hosted an e-commerce web application with the frontend deployed on <span className='font-bold'>Vercel</span>, the backend hosted on <span className='font-bold'>Render</span>, and the database managed using <span className='font-bold'>Aiven</span>. This experience helped me understand deployment, environment variables, API integration, database hosting, and real-world production workflows.
+</p>
+     */}
     </>
   )
 }
