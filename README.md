@@ -15,5 +15,4 @@ The website is fully responsive for both desktop and mobile devices.
 - CSS / Tailwind CSS  
 - JavaScript  
 
-## Live Demo
-[Click here to view my portfolio](https://portfolio-website-mayur.vercel.app/)
+## Live Demo : https://portfolio-website-mayur.vercel.app
