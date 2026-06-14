@@ -10,9 +10,8 @@ The website is fully responsive for both desktop and mobile devices.
 - Simple and clean UI  
 
 ## Technologies Used
-- React.js  
-- HTML  
-- CSS / Tailwind CSS  
+- React.js   
+- Tailwind CSS  
 - JavaScript  
 
 ## Live Demo : https://portfolio-website-mayur.vercel.app
