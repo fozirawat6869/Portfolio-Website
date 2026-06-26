@@ -15,18 +15,23 @@ function Home() {
           <p className='text-3xl font-bold text-center text-gray-400 '>Hello, I'm</p>
           <h1 className=' text-[40px] lg:text-[80px] text-center font-bold font-poppins  text-white'>Mayur Rawat</h1>
           <h1 className='text-[35px] font-bold mt-1 text-center text-gray-400'>Full-Stack Web Developer</h1>
-          <h1 className='text-[20px] font-bold mt-8 text-center  hover:scale-105 transition-all duration-300  '><a href='#contact' className='bg-white px-4 py-3 rounded-3xl cursor-pointer text-blue-500 text-xl'>Contact me</a></h1>
+          <h1 className='text-[20px] font-bold mt-8 text-center  hover:scale-105 transition-all   '>
+            <a href='#contact' className='bg-white px-4 py-3 rounded-3xl cursor-pointer text-blue-500 text-xl'>Contact me</a>
+          </h1>
            <div className='flex gap-5 justify-center mt-10 '>
-             <a href="https://www.linkedin.com/in/mayur-rawat-967831361" target='_blank'  className='text-4xl text-blue-500 bg-white '>
+             <a href="https://www.linkedin.com/in/mayur-rawat-967831361" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-100 transition-all'>
               <FaLinkedin/>
              </a>
-              <a href="https://github.com/fozirawat6869/Portfolio-Website.git" target='_blank'  className='text-4xl text-blue-500 bg-white'>
+              <a href="https://github.com/fozirawat6869/Portfolio-Website.git" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-100 transition-all'>
               <FaGithub/>
              </a>
            </div>
            <div className='flex gap-5  mt-10 justify-center items-center  '>
            <h1 className='text-[22px]  text-center text-white '>hire me on</h1>
-           <a  href="https://www.upwork.com/freelancers/~01b8bf8a5050f9c0a8" target='_blank' className='w-33 h-12'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Upwork-logo.svg/1280px-Upwork-logo.svg.png" className='bg-white cursor-pointer w-full h-full rounded-3xl px-3 ' alt="" /></a>
+           <a  href="https://www.upwork.com/freelancers/~01b8bf8a5050f9c0a8" target='_blank' className='w-33 h-12'>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Upwork-logo.svg/1280px-Upwork-logo.svg.png"
+            className='bg-white cursor-pointer w-full h-full rounded-3xl px-3 hover:scale-100 transition-all' alt="upwork icon" />
+            </a>
            </div>
         </div>
      </div>
