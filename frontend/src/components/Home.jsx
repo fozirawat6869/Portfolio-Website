@@ -19,10 +19,10 @@ function Home() {
             <a href='#contact' className='bg-white px-4 py-3 rounded-3xl cursor-pointer text-blue-500 text-xl'>Contact me</a>
           </h1>
            <div className='flex gap-5 justify-center mt-10 '>
-             <a href="https://www.linkedin.com/in/mayur-rawat-967831361" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-100 transition-all'>
+             <a href="https://www.linkedin.com/in/mayur-rawat-967831361" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-105 transition-all'>
               <FaLinkedin/>
              </a>
-              <a href="https://github.com/fozirawat6869/Portfolio-Website.git" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-100 transition-all'>
+              <a href="https://github.com/fozirawat6869/Portfolio-Website.git" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-105 transition-all'>
               <FaGithub/>
              </a>
            </div>
