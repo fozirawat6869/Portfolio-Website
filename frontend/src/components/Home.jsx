@@ -19,10 +19,10 @@ function Home() {
             <a href='#contact' className='bg-white px-4 py-3 rounded-3xl cursor-pointer text-blue-500 text-xl'>Contact me</a>
           </h1>
            <div className='flex gap-5 justify-center mt-10 '>
-             <a href="https://www.linkedin.com/in/mayur-rawat-967831361" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-105 transition-all'>
+             <a href="https://www.linkedin.com/in/mayur-rawat-967831361" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-110 transition-all'>
               <FaLinkedin/>
              </a>
-              <a href="https://github.com/fozirawat6869/Portfolio-Website.git" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-105 transition-all'>
+              <a href="https://github.com/fozirawat6869/Portfolio-Website.git" target='_blank'  className='text-4xl text-blue-500 bg-white hover:scale-110 transition-all'>
               <FaGithub/>
              </a>
            </div>
@@ -30,7 +30,7 @@ function Home() {
            <h1 className='text-[22px]  text-center text-white '>hire me on</h1>
            <a  href="https://www.upwork.com/freelancers/~01b8bf8a5050f9c0a8" target='_blank' className='w-33 h-12'>
            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Upwork-logo.svg/1280px-Upwork-logo.svg.png"
-            className='bg-white cursor-pointer w-full h-full rounded-3xl px-3 hover:scale-100 transition-all' alt="upwork icon" />
+            className='bg-white cursor-pointer w-full h-full rounded-3xl px-3 hover:scale-110 transition-all' alt="upwork icon" />
             </a>
            </div>
         </div>
