@@ -55,6 +55,195 @@ function About() {
 
      <h1 className='text-3xl font-bold mt-6 text-center text-white'>Hosting & Deployment Experience</h1>
 
+
+     ```jsx
+<div className='px-8 lg:px-55 sm:px-10 mt-15 text-[18px] tracking-widest leading-8 pb-10 text-white'>
+
+  <p>
+    I have deployed and managed full-stack web applications using cloud platforms and free hosting services. One of my major projects is a complete e-commerce platform where the frontend is deployed on <span className='font-bold'>Vercel</span>, the backend is hosted on <span className='font-bold'>Render</span>, and the MySQL database is managed using <span className='font-bold'>Aiven</span>. Through this project, I gained practical experience in deployment, environment variables, REST API integration, authentication, database hosting, production workflows, order management, and revenue tracking.
+  </p>
+
+  <p className='mt-4'>
+    <span className='font-bold text-xl'>Live Demo :</span>
+    <a
+      href="https://ecommerce-website-two-rose.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className='font-bold text-yellow-300 ml-1'
+    >
+      Click here to view the live E-Commerce application.
+    </a>
+  </p>
+
+  {/* User Features */}
+  <div className='mt-6'>
+    <h2 className='text-xl font-bold'>👤 User Features</h2>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>User Signup & Login</li>
+      <li>Secure JWT Authentication</li>
+      <li>Browse Products</li>
+      <li>Filter Products (Price, Category, Color, etc.)</li>
+      <li>Product Pagination</li>
+      <li>Add Products to Cart</li>
+      <li>Place Orders</li>
+      <li>View Order History</li>
+      <li>Track Order Status (Pending, Shipped, Delivered, Cancelled)</li>
+      <li>Track Payment Status (Pending, Completed, Failed)</li>
+      <li>View User Profile</li>
+      <li>Responsive Design (Mobile, Tablet, Desktop)</li>
+    </ul>
+  </div>
+
+  {/* Admin Features */}
+  <div className='mt-6'>
+    <h2 className='text-xl font-bold'>🛠️ Admin Features</h2>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Admin Login Panel</li>
+      <li>View All Users</li>
+      <li>View All Products</li>
+      <li>Add New Products</li>
+      <li>Delete Products</li>
+      <li>View All Orders</li>
+      <li>Manage Platform Data</li>
+      <li>Update Order Status (Pending, Shipped, Delivered, Cancelled)</li>
+      <li>Update Payment Status (Pending, Completed, Failed)</li>
+      <li>Revenue Dashboard</li>
+      <li>Total Revenue Calculated from Completed Payments</li>
+    </ul>
+  </div>
+
+  {/* Order Management */}
+  <div className='mt-6'>
+    <h2 className='text-xl font-bold'>📦 Order Management</h2>
+
+    <h3 className='font-bold mt-3'>User</h3>
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Place Orders</li>
+      <li>View Personal Orders</li>
+      <li>Track Current Order Status</li>
+      <li>Track Payment Status</li>
+    </ul>
+
+    <h3 className='font-bold mt-4'>Admin</h3>
+    <ul className='list-disc ml-8 mt-2'>
+      <li>View Orders from All Users</li>
+      <li>Update Order Status in Real-Time</li>
+      <li>Update Payment Status in Real-Time</li>
+      <li>Manage Complete Order Lifecycle</li>
+    </ul>
+  </div>
+
+  {/* Revenue Management */}
+  <div className='mt-6'>
+    <h2 className='text-xl font-bold'>💰 Revenue Management</h2>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Calculate Total Revenue</li>
+      <li>Revenue Based on Completed Payments Only</li>
+      <li>Real-Time Revenue Updates</li>
+    </ul>
+  </div>
+
+  {/* Performance */}
+  <div className='mt-6'>
+    <h2 className='text-xl font-bold'>⚡ Performance Features</h2>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Lazy Loading</li>
+      <li>API Response Caching</li>
+      <li>Optimized API Calls</li>
+      <li>Efficient Data Fetching with React Query</li>
+      <li>Clean & Scalable Project Structure</li>
+    </ul>
+  </div>
+
+  {/* Tech Stack */}
+  <div className='mt-6'>
+    <h2 className='text-xl font-bold'>🛠️ Tech Stack</h2>
+
+    <h3 className='font-bold mt-3'>Frontend</h3>
+    <ul className='list-disc ml-8 mt-2'>
+      <li>React.js</li>
+      <li>Tailwind CSS</li>
+      <li>React Query</li>
+      <li>React Router</li>
+    </ul>
+
+    <h3 className='font-bold mt-4'>Backend</h3>
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Node.js</li>
+      <li>Express.js</li>
+      <li>REST API</li>
+    </ul>
+
+    <h3 className='font-bold mt-4'>Database</h3>
+    <ul className='list-disc ml-8 mt-2'>
+      <li>MySQL</li>
+    </ul>
+
+    <h3 className='font-bold mt-4'>Hosting</h3>
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Frontend: Vercel</li>
+      <li>Backend: Render</li>
+      <li>Database: Aiven</li>
+    </ul>
+  </div>
+
+  {/* Authentication */}
+  <div className='mt-6'>
+    <h2 className='text-xl font-bold'>🔐 Authentication</h2>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>User Registration</li>
+      <li>User Login</li>
+      <li>JWT Authentication</li>
+      <li>Protected Routes</li>
+      <li>Admin Authorization</li>
+      <li>Role-Based Access Control</li>
+    </ul>
+  </div>
+
+  {/* Revenue System */}
+  <div className='mt-6'>
+    <h2 className='text-xl font-bold'>💵 Revenue System</h2>
+
+    <p className='mt-2'>
+      Revenue is automatically calculated only from orders whose payment status is
+      <span className='font-bold'> Completed</span>.
+    </p>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Pending</li>
+      <li>Completed</li>
+      <li>Failed</li>
+    </ul>
+  </div>
+
+  {/* Project Highlights */}
+  <div className='mt-6'>
+    <h2 className='text-xl font-bold'>📂 Project Highlights</h2>
+
+    <ul className='list-disc ml-8 mt-2'>
+      <li>Full Stack Architecture</li>
+      <li>RESTful API Design</li>
+      <li>MySQL Relational Database</li>
+      <li>JWT Authentication</li>
+      <li>Admin Dashboard</li>
+      <li>Order Management System</li>
+      <li>Payment Status Tracking</li>
+      <li>Revenue Analytics</li>
+      <li>Responsive UI</li>
+      <li>React Query Caching</li>
+      <li>Production Deployment</li>
+    </ul>
+  </div>
+
+</div>
+```
+
+{/* 
 <div className=' px-8 lg:px-55 sm:px-10 mt-15 text-[18px] tracking-widest  leading-8 pb-10 text-white '>
    <p className=' '>
   I have also deployed and managed full-stack projects online using cloud platforms and free hosting services. For example, I hosted an e-commerce web application with the frontend deployed on <span className='font-bold'>Vercel</span>, the backend hosted on <span className='font-bold'>Render</span>, and the database managed using <span className='font-bold'>Aiven</span>. This experience helped me understand deployment, environment variables, API integration, database hosting, and real-world production workflows.
@@ -103,7 +292,7 @@ function About() {
       <li>Clean Project Structure</li>
     </ul>
   </div>
-</div>
+</div> */}
 
      {/* <h1 className=' text-3xl font-bold mt-8 text-center text-gray-300'>Hosting & Deployment Experience</h1>
 
