@@ -30,7 +30,7 @@ function Home() {
            <h1 className='text-[22px]  text-center text-white '>hire me on</h1>
            <a  href="https://www.upwork.com/freelancers/~01b8bf8a5050f9c0a8" target='_blank' className='w-33 h-12'>
            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Upwork-logo.svg/1280px-Upwork-logo.svg.png"
-            className='bg-white cursor-pointer w-full h-full rounded-3xl px-3 hover:scale-110 transition-all' alt="upwork icon" />
+            className='bg-white cursor-pointer w-full h-full rounded-3xl px-3 hover:scale-105 transition-all' alt="upwork icon" />
             </a>
            </div>
         </div>
